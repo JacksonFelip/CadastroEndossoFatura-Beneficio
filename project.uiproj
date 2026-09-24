@@ -1,0 +1,6 @@
+﻿{
+  "Name": "CadastroEndossoFaturaBeneficio",
+  "ProjectType": "Process",
+  "Description": "Automação Cadastros de Endossos de Faturas",
+  "MainFile": "Main.xaml"
+}

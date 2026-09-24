@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Quiver - Sistema para Corretora de Seg",
+  "Type": "App",
+  "Id": "LkfJ04f7ykCFmbhH0de-nA",
+  "Reference": "kDS9OIhngk-Soo6E2_cvrQ/LkfJ04f7ykCFmbhH0de-nA",
+  "Created": "2026-09-10T13:44:11.8063195Z",
+  "Updated": "2026-09-10T13:44:11.8063195Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

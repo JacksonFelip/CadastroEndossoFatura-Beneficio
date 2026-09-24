@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Nº controle do documento",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IIFY4_KQjkiIItyRJiQL3w",
+  "Reference": "kDS9OIhngk-Soo6E2_cvrQ/IIFY4_KQjkiIItyRJiQL3w",
+  "ParentRef": "kDS9OIhngk-Soo6E2_cvrQ/sh6ZswA4DEWlbgGGmRFtaA",
+  "Created": "2026-09-11T14:23:08.1435658Z",
+  "Updated": "2026-09-11T14:23:08.1435658Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
