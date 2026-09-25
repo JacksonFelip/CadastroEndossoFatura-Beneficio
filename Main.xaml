@@ -136,7 +136,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1054,4992" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1019,6664" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="True" Name="continuar" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="listaArquivos" />
@@ -155,7 +155,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Assign_27">
+    <Assign sap:VirtualizedContainerService.HintSize="666,57" sap2010:WorkflowViewState.IdRef="Assign_27">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_48">caminhoLog</CSharpReference>
@@ -175,7 +175,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <Assign sap:VirtualizedContainerService.HintSize="666,57" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">
           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">listaSubpastas</CSharpReference>
@@ -192,7 +192,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Assign_5">
+    <Assign sap:VirtualizedContainerService.HintSize="666,57" sap2010:WorkflowViewState.IdRef="Assign_5">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">
           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">arquivosKit</CSharpReference>
@@ -209,7 +209,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Assign_6">
+    <Assign sap:VirtualizedContainerService.HintSize="666,57" sap2010:WorkflowViewState.IdRef="Assign_6">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">
           <CSharpReference x:TypeArguments="scg:Dictionary(x:String, x:Object)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">dadosKit</CSharpReference>
@@ -226,7 +226,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Assign_8">
+    <Assign sap:VirtualizedContainerService.HintSize="666,57" sap2010:WorkflowViewState.IdRef="Assign_8">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">
           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">erros</CSharpReference>
@@ -243,15 +243,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="630,4684" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="666,6356" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
-        <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="628,4562" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="664,6234" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="PROCESSAR PRUDENTIAL" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="PROCESSAR PRUDENTIAL" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <Sequence.Variables>
               <Variable x:TypeArguments="scg:List(x:String)" Name="arquivosForaPadrao" />
               <Variable x:TypeArguments="x:String" Name="caminhoPastaNaoIdentificadosPrudential" />
@@ -466,13 +466,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,1630" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,1880" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chave" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,1508" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,1758" sap2010:WorkflowViewState.IdRef="Sequence_42">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -774,10 +774,10 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <Sequence DisplayName="Log Kit" sap:VirtualizedContainerService.HintSize="560,48" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                    <Sequence DisplayName="Log Kit" sap:VirtualizedContainerService.HintSize="560,298" sap2010:WorkflowViewState.IdRef="Sequence_65">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -785,6 +785,7 @@
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <InArgument x:TypeArguments="x:String">
@@ -798,7 +799,7 @@
 + " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
                         </InArgument>
                       </WriteLine>
-                      <ui:AppendLine File="{x:Null}" ContinueOnError="True" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="AppendLine_1" UseDefaultEncoding="False">
+                      <ui:AppendLine File="{x:Null}" ContinueOnError="True" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="416,158" sap2010:WorkflowViewState.IdRef="AppendLine_1" UseDefaultEncoding="False">
                         <ui:AppendLine.FileName>
                           <InArgument x:TypeArguments="x:String">
                             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_112">caminhoLog</CSharpValue>
@@ -818,7 +819,7 @@
                         </ui:AppendLine.Text>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
@@ -840,7 +841,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR METLIFE" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_52">
+          <Sequence DisplayName="PROCESSAR METLIFE" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_52">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="caminhoPastaMonitoradaMetLife" />
               <Variable x:TypeArguments="scg:List(x:String)" Name="arquivosForaPadraoMetLife" />
@@ -1094,13 +1095,13 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_286">"Metlife grupos=" + chavesMetLife.Count</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,2899" sap2010:WorkflowViewState.IdRef="ForEach`1_8">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,3017" sap2010:WorkflowViewState.IdRef="ForEach`1_8">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chave" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2777" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2895" sap2010:WorkflowViewState.IdRef="Sequence_54">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1124,7 +1125,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <If sap:VirtualizedContainerService.HintSize="560,2555" sap2010:WorkflowViewState.IdRef="If_12">
+                    <If sap:VirtualizedContainerService.HintSize="560,2673" sap2010:WorkflowViewState.IdRef="If_12">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_164" xml:space="preserve">listaArquivos != null
@@ -1388,13 +1389,13 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="558,347" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="558,465" sap2010:WorkflowViewState.IdRef="Sequence_56">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_1">
+                          <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_1">
                             <uasa:AppendItemToList.ItemToAppend>
                               <InArgument x:TypeArguments="x:String">
                                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_165">"Kit incompleto MetLife (chave " + chave + "). E preciso RESUMO + (BOLETO ou ANEXO ou PLANILHA), minimo 2 arquivos."</CSharpValue>
@@ -1407,7 +1408,7 @@
                             </uasa:AppendItemToList.List>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
@@ -1513,7 +1514,7 @@
               </ui:ForEach.Values>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR METLIFE INDIVIDUAL" sap:VirtualizedContainerService.HintSize="594,3880" sap2010:WorkflowViewState.IdRef="Sequence_144">
+          <Sequence DisplayName="PROCESSAR METLIFE INDIVIDUAL" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_144">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="destino" />
               <Variable x:TypeArguments="x:String" Name="nomeArquivo" />
@@ -1529,7 +1530,7 @@
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -1702,13 +1703,13 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_393">"MetLife Ind PDFs: " + listaArquivosInd.Count</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each caminhoArquivo" sap:VirtualizedContainerService.HintSize="560,2603" sap2010:WorkflowViewState.IdRef="ForEach`1_40">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each caminhoArquivo" sap:VirtualizedContainerService.HintSize="560,2770" sap2010:WorkflowViewState.IdRef="ForEach`1_40">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="caminhoArquivo" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,2481" sap2010:WorkflowViewState.IdRef="Sequence_145">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,2648" sap2010:WorkflowViewState.IdRef="Sequence_145">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1815,7 +1816,7 @@
                         <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_400">"MetLife Ind processando: " + System.IO.Path.GetFileName(caminhoArquivo)</CSharpValue>
                       </InArgument>
                     </WriteLine>
-                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="524,2079" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="524,2088" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                       <TryCatch.Try>
                         <Sequence DisplayName="Tentar" sap:VirtualizedContainerService.HintSize="522,1216" sap2010:WorkflowViewState.IdRef="Sequence_146">
                           <sap:WorkflowViewStateService.ViewState>
@@ -2037,6 +2038,26 @@
                         </Sequence>
                       </TryCatch.Finally>
                     </TryCatch>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="524,158" sap2010:WorkflowViewState.IdRef="AppendLine_5" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_419">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_420" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora=MetLife_Individual"
++ " | Extracao=" + sucessoExtracaoMetLifeInd.ToString()
++ " | Cadastro=" + sucessoCadastroMetLifeInd.ToString()
++ " | Arquivo=" + System.IO.Path.GetFileName(caminhoArquivo)
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoMetLifeInd &amp;&amp; sucessoCadastroMetLifeInd ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -2047,7 +2068,7 @@
               </ui:ForEach.Values>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR BRADESCO" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_66">
+          <Sequence DisplayName="PROCESSAR BRADESCO" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_66">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="todosCadastrosOkBradesco" />
               <Variable x:TypeArguments="x:Boolean" Name="sucessoCadastroBradesco" />
@@ -2067,7 +2088,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_72">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_72">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_115">caminhoPastaMonitoradaBradesco</CSharpReference>
@@ -2084,7 +2105,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_73">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_73">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_116">caminhoPastaProcessadosBradesco</CSharpReference>
@@ -2101,7 +2122,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_74">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_74">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_117">caminhoPastaErrosBradesco</CSharpReference>
@@ -2118,7 +2139,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_75">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_75">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_118">caminhoPastaNaoIdentificadosBradesco</CSharpReference>
@@ -2135,7 +2156,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_76">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_76">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_119">caminhoPastaPendentesOdontoBradesco</CSharpReference>
@@ -2153,7 +2174,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_19">
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="WriteLine_19">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2164,7 +2185,7 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_287">"Verificando pasta Bradesco: " + caminhoPastaMonitoradaBradesco</CSharpValue>
               </InArgument>
             </WriteLine>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_32">
+            <Assign sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="Assign_32">
               <Assign.To>
                 <OutArgument x:TypeArguments="scg:List(x:String)">
                   <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_104">listaPdfsBradesco</CSharpReference>
@@ -2183,7 +2204,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_5">
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="596,57" sap2010:WorkflowViewState.IdRef="WriteLine_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2194,13 +2215,13 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_127">"Bradesco PDFs: " + listaPdfsBradesco.Count</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each pdf" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_14">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each pdf" sap:VirtualizedContainerService.HintSize="596,3149" sap2010:WorkflowViewState.IdRef="ForEach`1_14">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="pdf" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2772" sap2010:WorkflowViewState.IdRef="Sequence_67">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,3027" sap2010:WorkflowViewState.IdRef="Sequence_67">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2310,7 +2331,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ExtracaoKit_Bradesco - Invoke Workflow File (Extracao\ExtracaoKit_Bradesco.xaml)" sap:VirtualizedContainerService.HintSize="560,89" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Extracao\ExtracaoKit_Bradesco.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ExtracaoKit_Bradesco - Invoke Workflow File (Extracao\ExtracaoKit_Bradesco.xaml)" sap:VirtualizedContainerService.HintSize="560,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Extracao\ExtracaoKit_Bradesco.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="erros">
                           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_60">erros</CSharpReference>
@@ -2332,7 +2353,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
-                    <If sap:VirtualizedContainerService.HintSize="560,2281" sap2010:WorkflowViewState.IdRef="If_15">
+                    <If sap:VirtualizedContainerService.HintSize="560,2290" sap2010:WorkflowViewState.IdRef="If_15">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_135">sucessoExtracaoBradesco == true</CSharpValue>
@@ -2605,6 +2626,26 @@
                         </Sequence>
                       </If.Else>
                     </If>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="560,158" sap2010:WorkflowViewState.IdRef="AppendLine_6" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_421">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora=Bradesco"
++ " | Extracao=" + sucessoExtracaoBradesco.ToString()
++ " | Cadastro=" + sucessoCadastroBradesco.ToString()
++ " | Arquivo=" + System.IO.Path.GetFileName(pdf)
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoBradesco &amp;&amp; sucessoCadastroBradesco ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -2615,13 +2656,13 @@
               </ui:ForEach.Values>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR ICATU" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_79">
+          <Sequence DisplayName="PROCESSAR ICATU" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_79">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="sucessoCadastroIcatu" />
               <Variable x:TypeArguments="x:Boolean" Name="sucessoExtracaoIcatu" />
@@ -2639,7 +2680,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_77">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_77">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_120">caminhoPastaMonitoradaIcatu</CSharpReference>
@@ -2657,7 +2698,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_78">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_78">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_121">caminhoPastaProcessadosIcatu</CSharpReference>
@@ -2675,7 +2716,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_79">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_79">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_122">caminhoPastaErrosIcatu</CSharpReference>
@@ -2693,7 +2734,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_80">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_80">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_123">caminhoPastaNaoIdentificadosIcatu</CSharpReference>
@@ -2711,7 +2752,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_10">
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="WriteLine_10">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2722,7 +2763,7 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_170">"Verificando pasta Icatu: " + caminhoPastaMonitoradaIcatu</CSharpValue>
               </InArgument>
             </WriteLine>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_51">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_51">
               <Assign.To>
                 <OutArgument x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))">
                   <CSharpReference x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))" sap2010:WorkflowViewState.IdRef="CSharpReference`1_93">gruposIcatu</CSharpReference>
@@ -2740,7 +2781,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_52">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_52">
               <Assign.To>
                 <OutArgument x:TypeArguments="scg:List(x:String)">
                   <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_77">listaArquivos</CSharpReference>
@@ -2763,7 +2804,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivo" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="ForEach`1_16">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivo" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="ForEach`1_16">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
@@ -2870,7 +2911,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
-            <Assign sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Assign_55">
+            <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_55">
               <Assign.To>
                 <OutArgument x:TypeArguments="scg:List(x:String)">
                   <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_97">chavesIcatu</CSharpReference>
@@ -2888,7 +2929,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_11">
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="WriteLine_11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2899,20 +2940,20 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_186">"Icatu grupos=" + chavesIcatu.Count</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_18">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="524,1449" sap2010:WorkflowViewState.IdRef="ForEach`1_18">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chave" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,1458" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="522,1327" sap2010:WorkflowViewState.IdRef="Sequence_83">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_56">
+                    <Assign sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_56">
                       <Assign.To>
                         <OutArgument x:TypeArguments="scg:List(x:String)">
                           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_84">listaArquivos</CSharpReference>
@@ -2930,7 +2971,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_57">
+                    <Assign sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_57">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Boolean">
                           <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_95">sucessoExtracaoIcatu</CSharpReference>
@@ -2948,7 +2989,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_58">
+                    <Assign sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_58">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Boolean">
                           <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_96">sucessoCadastroIcatu</CSharpReference>
@@ -2966,7 +3007,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="Assign_59">
+                    <Assign sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="Assign_59">
                       <Assign.To>
                         <OutArgument x:TypeArguments="scg:List(x:String)">
                           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_92">erros</CSharpReference>
@@ -2984,7 +3025,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <If sap:VirtualizedContainerService.HintSize="524,1170" sap2010:WorkflowViewState.IdRef="If_22">
+                    <If sap:VirtualizedContainerService.HintSize="488,881" sap2010:WorkflowViewState.IdRef="If_22">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_189" xml:space="preserve">listaArquivos != null
@@ -2998,13 +3039,13 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="522,932" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,634" sap2010:WorkflowViewState.IdRef="Sequence_84">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ExtracaoKit_Icatu - Invoke Workflow File (Extracao\ExtracaoKit_Icatu.xaml)" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="Extracao\ExtracaoKit_Icatu.xaml">
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="ExtracaoKit_Icatu - Invoke Workflow File (Extracao\ExtracaoKit_Icatu.xaml)" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="Extracao\ExtracaoKit_Icatu.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="erros">
                                 <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_85">erros</CSharpReference>
@@ -3026,7 +3067,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:InvokeWorkflowFile>
-                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="WriteLine_13">
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="WriteLine_13">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3043,7 +3084,7 @@
 + " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
                             </InArgument>
                           </WriteLine>
-                          <If sap:VirtualizedContainerService.HintSize="488,758" sap2010:WorkflowViewState.IdRef="If_23">
+                          <If sap:VirtualizedContainerService.HintSize="452,460" sap2010:WorkflowViewState.IdRef="If_23">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_191">sucessoExtracaoIcatu == true</CSharpValue>
@@ -3056,13 +3097,13 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,520" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_85">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="CadastrarEndosso - Invoke Workflow File (Cadastro\CadastrarEndosso.xaml)" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" UnSafe="False" WorkflowFileName="Cadastro\CadastrarEndosso.xaml">
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="CadastrarEndosso - Invoke Workflow File (Cadastro\CadastrarEndosso.xaml)" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" UnSafe="False" WorkflowFileName="Cadastro\CadastrarEndosso.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <InArgument x:TypeArguments="scg:List(x:String)" x:Key="listaPdfs">
                                       <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_201">listaArquivos</CSharpValue>
@@ -3084,7 +3125,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:InvokeWorkflowFile>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="WriteLine_14">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="WriteLine_14">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3100,7 +3141,7 @@
 + " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
                                   </InArgument>
                                 </WriteLine>
-                                <If sap:VirtualizedContainerService.HintSize="452,346" sap2010:WorkflowViewState.IdRef="If_24">
+                                <If sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_24">
                                   <If.Condition>
                                     <InArgument x:TypeArguments="x:Boolean">
                                       <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_194">sucessoCadastroIcatu == true</CSharpValue>
@@ -3108,18 +3149,18 @@
                                   </If.Condition>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <If.Then>
-                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_88">
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,290" sap2010:WorkflowViewState.IdRef="Sequence_88">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_19">
+                                      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="452,230" sap2010:WorkflowViewState.IdRef="ForEach`1_19">
                                         <ui:ForEach.Body>
                                           <ActivityAction x:TypeArguments="x:String">
                                             <ActivityAction.Argument>
@@ -3159,7 +3200,7 @@
                                         </ui:ForEach.Values>
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
@@ -3167,13 +3208,13 @@
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
-                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,108" sap2010:WorkflowViewState.IdRef="Sequence_90">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_20">
+                                      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="ForEach`1_20">
                                         <ui:ForEach.Body>
                                           <ActivityAction x:TypeArguments="x:String">
                                             <ActivityAction.Argument>
@@ -3224,13 +3265,13 @@
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,108" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_87">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="ForEach`1_21">
+                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEach`1_21">
                                   <ui:ForEach.Body>
                                     <ActivityAction x:TypeArguments="x:String">
                                       <ActivityAction.Argument>
@@ -3281,13 +3322,13 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="522,108" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,108" sap2010:WorkflowViewState.IdRef="Sequence_86">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="488,48" sap2010:WorkflowViewState.IdRef="ForEach`1_22">
+                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each arquivoKit" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="ForEach`1_22">
                             <ui:ForEach.Body>
                               <ActivityAction x:TypeArguments="x:String">
                                 <ActivityAction.Argument>
@@ -3335,6 +3376,27 @@
                         </Sequence>
                       </If.Else>
                     </If>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="488,158" sap2010:WorkflowViewState.IdRef="AppendLine_7" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_423">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_424" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora= Icatu"
++ " | Extracao=" + sucessoExtracaoIcatu.ToString()
++ " | Cadastro=" + sucessoCadastroIcatu.ToString()
++ " | Chave=" + chaveIcatu
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Valor=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Valor") &amp;&amp; dadosKit["Valor"] != null ? dadosKit["Valor"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoIcatu &amp;&amp; sucessoCadastroIcatu ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -3345,13 +3407,13 @@
               </ui:ForEach.Values>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR MAG" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_94">
+          <Sequence DisplayName="PROCESSAR MAG" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_94">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="sucessoCadastroMAG" />
               <Variable x:TypeArguments="x:Boolean" Name="sucessoExtracaoMAG" />
@@ -3678,13 +3740,13 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_251">"MAG grupos=" + chavesMAG.Count</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,2194" sap2010:WorkflowViewState.IdRef="ForEach`1_24">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chave" sap:VirtualizedContainerService.HintSize="596,2361" sap2010:WorkflowViewState.IdRef="ForEach`1_24">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chave" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2072" sap2010:WorkflowViewState.IdRef="Sequence_100">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2239" sap2010:WorkflowViewState.IdRef="Sequence_100">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3744,7 +3806,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <If sap:VirtualizedContainerService.HintSize="560,1841" sap2010:WorkflowViewState.IdRef="If_27">
+                    <If sap:VirtualizedContainerService.HintSize="560,1850" sap2010:WorkflowViewState.IdRef="If_27">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_294">listaArquivos != null &amp;&amp; listaArquivos.Any(f =&gt; System.IO.Path.GetFileName(f).ToUpper().Contains("RELACAO") || System.IO.Path.GetFileName(f).ToUpper().Contains("ATIVOS") || System.IO.Path.GetFileName(f).ToUpper().Contains("REMESSA") || System.IO.Path.GetFileName(f).ToUpper().Contains("GUIA"))</CSharpValue>
@@ -4060,6 +4122,27 @@
                         </Sequence>
                       </If.Else>
                     </If>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="560,158" sap2010:WorkflowViewState.IdRef="AppendLine_8" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_425">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_426" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora=MAG"
++ " | Extracao=" + sucessoExtracaoMAG.ToString()
++ " | Cadastro=" + sucessoCadastroMAG.ToString()
++ " | Chave=" + chaveMAG
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Valor=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Valor") &amp;&amp; dadosKit["Valor"] != null ? dadosKit["Valor"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoMAG &amp;&amp; sucessoCadastroMAG ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -4076,7 +4159,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR ZURICH" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_111">
+          <Sequence DisplayName="PROCESSAR ZURICH" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="Sequence_111">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="sucessoCadastroZurich" />
               <Variable x:TypeArguments="x:Boolean" Name="sucessoExtracaoZurich" />
@@ -4388,13 +4471,13 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_312">"Zurich grupos=" + chavesZurich.Count.ToString()</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chaveZurich" sap:VirtualizedContainerService.HintSize="560,2000" sap2010:WorkflowViewState.IdRef="ForEach`1_30">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chaveZurich" sap:VirtualizedContainerService.HintSize="560,2167" sap2010:WorkflowViewState.IdRef="ForEach`1_30">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chaveZurich" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,1878" sap2010:WorkflowViewState.IdRef="Sequence_117">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,2045" sap2010:WorkflowViewState.IdRef="Sequence_117">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -4472,7 +4555,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <If sap:VirtualizedContainerService.HintSize="524,1590" sap2010:WorkflowViewState.IdRef="If_32">
+                    <If sap:VirtualizedContainerService.HintSize="524,1599" sap2010:WorkflowViewState.IdRef="If_32">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_318">listaArquivos != null &amp;&amp; listaArquivos.Any(f =&gt; System.IO.Path.GetFileName(f).ToUpper().Contains("BOLETO"))</CSharpValue>
@@ -4735,6 +4818,27 @@
                         </Sequence>
                       </If.Else>
                     </If>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="524,158" sap2010:WorkflowViewState.IdRef="AppendLine_10" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_427">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_428" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora=Zurich"
++ " | Extracao=" + sucessoExtracaoZurich.ToString()
++ " | Cadastro=" + sucessoCadastroZurich.ToString()
++ " | Chave=" + chaveZurich
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Valor=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Valor") &amp;&amp; dadosKit["Valor"] != null ? dadosKit["Valor"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoZurich &amp;&amp; sucessoCadastroZurich ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -4745,7 +4849,7 @@
               </ui:ForEach.Values>
             </ui:ForEach>
           </Sequence>
-          <Sequence DisplayName="PROCESSAR CAPEMISA" sap:VirtualizedContainerService.HintSize="594,57" sap2010:WorkflowViewState.IdRef="Sequence_127">
+          <Sequence DisplayName="PROCESSAR CAPEMISA" sap:VirtualizedContainerService.HintSize="630,5552" sap2010:WorkflowViewState.IdRef="Sequence_127">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="sucessoCadastroCapemisa" />
               <Variable x:TypeArguments="x:Boolean" Name="sucessoExtracaoCapemisa" />
@@ -4759,7 +4863,7 @@
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -5079,19 +5183,19 @@
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_353">"Capemisa grupos=" + chavesCapemisa.Count.ToString()</CSharpValue>
               </InArgument>
             </WriteLine>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chaveCapemisa" sap:VirtualizedContainerService.HintSize="596,3206" sap2010:WorkflowViewState.IdRef="ForEach`1_35">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each chaveCapemisa" sap:VirtualizedContainerService.HintSize="596,3255" sap2010:WorkflowViewState.IdRef="ForEach`1_35">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="chaveCapemisa" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,3084" sap2010:WorkflowViewState.IdRef="Sequence_133">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,3133" sap2010:WorkflowViewState.IdRef="Sequence_133">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="560,175" sap2010:WorkflowViewState.IdRef="Assign_125">
+                    <Assign sap:VirtualizedContainerService.HintSize="560,57" sap2010:WorkflowViewState.IdRef="Assign_125">
                       <Assign.To>
                         <OutArgument x:TypeArguments="scg:List(x:String)">
                           <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_179">listaArquivos</CSharpReference>
@@ -5104,7 +5208,7 @@
                       </Assign.Value>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -5163,7 +5267,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <If sap:VirtualizedContainerService.HintSize="560,2678" sap2010:WorkflowViewState.IdRef="If_37">
+                    <If sap:VirtualizedContainerService.HintSize="560,2687" sap2010:WorkflowViewState.IdRef="If_37">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_359" xml:space="preserve">listaArquivos != null &amp;&amp; listaArquivos.Any(f =&gt;
@@ -5448,6 +5552,27 @@
                         </Sequence>
                       </If.Else>
                     </If>
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="560,158" sap2010:WorkflowViewState.IdRef="AppendLine_11" UseDefaultEncoding="False">
+                      <ui:AppendLine.FileName>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_429">caminhoLog</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.FileName>
+                      <ui:AppendLine.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_430" xml:space="preserve">DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
++ " | Seguradora=Capemisa"
++ " | Extracao=" + sucessoExtracaoCapemisa.ToString()
++ " | Cadastro=" + sucessoCadastroCapemisa.ToString()
++ " | Chave=" + chaveCapemisa
++ " | Apolice=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Apolice") &amp;&amp; dadosKit["Apolice"] != null ? dadosKit["Apolice"].ToString() : "")
++ " | Endosso=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Endosso") &amp;&amp; dadosKit["Endosso"] != null ? dadosKit["Endosso"].ToString() : "")
++ " | Valor=" + (dadosKit != null &amp;&amp; dadosKit.ContainsKey("Valor") &amp;&amp; dadosKit["Valor"] != null ? dadosKit["Valor"].ToString() : "")
++ " | Destino=" + (sucessoExtracaoCapemisa &amp;&amp; sucessoCadastroCapemisa ? "Processados" : "Erros")
++ " | Erros=" + (erros != null &amp;&amp; erros.Count &gt; 0 ? string.Join("; ", erros) : "-")</CSharpValue>
+                        </InArgument>
+                      </ui:AppendLine.Text>
+                    </ui:AppendLine>
                   </Sequence>
                 </ActivityAction>
               </ui:ForEach.Body>
@@ -5458,7 +5583,7 @@
               </ui:ForEach.Values>
             </ui:ForEach>
           </Sequence>
-          <Assign sap:VirtualizedContainerService.HintSize="594,175" sap2010:WorkflowViewState.IdRef="Assign_129">
+          <Assign sap:VirtualizedContainerService.HintSize="630,175" sap2010:WorkflowViewState.IdRef="Assign_129">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Boolean">
                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_188">continuar</CSharpReference>
@@ -5477,7 +5602,7 @@
               </InArgument>
             </Assign.Value>
           </Assign>
-          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="594,48" sap2010:WorkflowViewState.IdRef="Delay_4">
+          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="630,48" sap2010:WorkflowViewState.IdRef="Delay_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
